@@ -29,26 +29,4 @@ echo "<html>
 </form>
 </body>
 </html>";
-
-
-
-$a = [
-'test'=>'200',
-'2' => 'two',
-'200' => 'GET OK',
-'OK' => 'fix',
-'response' => [
-	'login' => 'Rick',
-	'access' => 'All'
-],
-];
-
-echo "<pre>";
-var_dump($a['response']);
-echo "</pre>";
-
-echo "<pre>";
-var_dump($a);
-echo "</pre>";
-
 ?>
